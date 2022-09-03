@@ -2,9 +2,7 @@ body {
   font-family: "Advent Pro";
   background-color: #faf6ee;
 }
-.navbar-toggler-icon {
-  color: black;
-}
+
 .main {
   text-align: center;
 }
@@ -49,6 +47,9 @@ hr {
 img {
   border-radius: 15px;
   box-shadow: 5px 5px 5px 5px rgb(227, 225, 225);
+}
+.button {
+  text-align: center;
 }
 
 @media (max-width: 400px) {
