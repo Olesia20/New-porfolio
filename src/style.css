@@ -56,8 +56,9 @@ img {
 }
 .button {
   text-align: center;
- 
-} ;
+}
+p {
+  padding-right: 150px;
 }
 
 @media (max-width: 400px) {
