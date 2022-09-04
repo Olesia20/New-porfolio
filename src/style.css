@@ -22,11 +22,12 @@ a:hover {
 i {
   color: black;
 }
-i:hover {
+.fa-brands:hover {
   color: rgb(121, 12, 194);
   font-size: 80px;
 }
 h1 {
+  margin-top: 60px;
   font-size: 45px;
   text-align: center;
 }
@@ -51,7 +52,7 @@ hr {
 }
 
 img {
-  width: 350px;
+  width: 500px;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 5px rgb(227, 225, 225);
 }
@@ -66,6 +67,15 @@ p {
   display: block;
   margin: auto;
   margin-bottom: 50px;
+}
+.navbar {
+  font-size: 25px;
+}
+.navbar-brand {
+  font-size: 25px;
+}
+.navbar-toggler {
+  border: 1px solid black;
 }
 @media (max-width: 800px) {
   .homepage {
