@@ -67,7 +67,7 @@ p {
   margin: auto;
   margin-bottom: 50px;
 }
-@media (max-width: 400px) {
+@media (max-width: 800px) {
   .homepage {
     text-align: center;
     padding: 10px 10px;
@@ -79,7 +79,7 @@ p {
   h2 {
     font-size: 15px;
   }
-  }
+
   p {
     padding: 10px;
   }
