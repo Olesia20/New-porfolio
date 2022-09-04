@@ -60,7 +60,14 @@ img {
 p {
   padding-right: 150px;
 }
-
+img {
+  width: 300px;
+}
+.main-page {
+  width: 600px;
+  display: block;
+  margin: auto;
+}
 @media (max-width: 800px) {
   .homepage {
     text-align: center;
@@ -75,5 +82,9 @@ p {
   }
   p {
     padding: 10px;
+  }
+  .col-lg-2 {
+    text-align: center;
+    margin-top: 20px;
   }
 }
