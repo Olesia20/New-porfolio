@@ -114,16 +114,16 @@ p {
   }
 
   .main-page {
-    display: none;
+    width: 370px;
   }
   .second-page {
-    display: none;
+    width: 370px;
   }
 }
 @media (max-width: 1000px) {
   .img-fluid {
     display: block;
     margin: auto;
-    width: 320px;
+    width: 370px;
   }
 }
