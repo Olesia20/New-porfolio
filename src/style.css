@@ -51,6 +51,7 @@ hr {
 }
 
 img {
+  width: 350px;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 5px rgb(227, 225, 225);
 }
@@ -60,31 +61,34 @@ img {
 p {
   padding-right: 150px;
 }
-img {
-  width: 300px;
-}
 .main-page {
   width: 600px;
   display: block;
   margin: auto;
+  margin-bottom: 50px;
 }
-@media (max-width: 800px) {
+@media (max-width: 400px) {
   .homepage {
     text-align: center;
     padding: 10px 10px;
     margin: 10px 10px;
   }
   hr {
-    width: 320px;
+    width: 300px;
   }
   h2 {
     font-size: 15px;
   }
+  }
   p {
     padding: 10px;
   }
-  .col-lg-2 {
-    text-align: center;
-    margin-top: 20px;
+  .img-fluid {
+    display: block;
+    margin: auto;
+    width: 320px;
+  }
+  .main-page {
+    display: none;
   }
 }
