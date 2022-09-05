@@ -33,6 +33,7 @@ h1 {
 }
 h2 {
   font-size: 25px;
+  text-align: center;
 }
 h4 {
   font-size: 25px;
@@ -91,7 +92,7 @@ p {
 .navbar {
   font-size: 25px;
   position: sticky;
-
+  background: #faf6ee;
   top: 0;
 }
 .navbar-brand {
@@ -110,7 +111,12 @@ p {
   margin-top: 80px;
   font-size: 35px;
 }
-
+.scrollUp {
+  font-size: 30px;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
 @media (max-width: 800px) {
   .homepage {
     text-align: center;
@@ -125,7 +131,8 @@ p {
   }
 
   p {
-    padding: 10px;
+    margin-top: -30px;
+    font-size: 20px;
   }
 
   .main-page {
@@ -134,11 +141,20 @@ p {
   .second-page {
     width: 370px;
   }
+  .scrollUp {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+  }
 }
 @media (max-width: 1000px) {
   .img-fluid {
     display: block;
     margin: auto;
     width: 370px;
+  }
+  p {
+    text-align: center;
+    padding: 50px;
   }
 }
