@@ -90,6 +90,9 @@ p {
 }
 .navbar {
   font-size: 25px;
+  position: sticky;
+
+  top: 0;
 }
 .navbar-brand {
   font-size: 25px;
@@ -107,6 +110,7 @@ p {
   margin-top: 80px;
   font-size: 35px;
 }
+
 @media (max-width: 800px) {
   .homepage {
     text-align: center;
