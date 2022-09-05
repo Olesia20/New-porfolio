@@ -56,7 +56,7 @@ p {
 hr {
   display: block;
   margin: auto;
-  width: 1000px;
+  width: 800px;
 }
 .btn {
   font-size: 25px;
@@ -75,13 +75,13 @@ p {
   padding-right: 150px;
 }
 .main-page {
-  width: 550px;
+  width: 400px;
   display: block;
   margin: auto;
   margin-bottom: 50px;
 }
 .second-page {
-  width: 650px;
+  width: 400px;
   display: block;
   margin: auto;
   margin-bottom: 50px;
@@ -100,6 +100,10 @@ p {
 }
 .navbar-toggler {
   border: 1px solid black;
+}
+.nav-link:hover,
+.nav-link.active {
+  color: rgb(121, 12, 194);
 }
 .photo {
   width: 300px;
